@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #ffffff;
+  color: #222222;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #1e1e1e;
+  color: #eeeeee;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}

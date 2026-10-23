@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito con sessionStorage</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    button { padding: 8px 16px; margin: 4px; cursor: pointer; }
+    ul { margin-top: 1rem; }
+    li { margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+  <h2>Tienda</h2>
+  <div id="productos">
+    <button class="agregar" data-nombre="Cafe" data-precio="1500">Cafe $1500</button>
+    <button class="agregar" data-nombre="Te" data-precio="1000">Te $1000</button>
+    <button class="agregar" data-nombre="Medialuna" data-precio="500">Medialuna $500</button>
+  </div>
+
+  <h3>Carrito</h3>
+  <ul id="carrito"></ul>
+  <p>Total: $<span id="total">0</span></p>
+  <button id="vaciar">Vaciar carrito</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
